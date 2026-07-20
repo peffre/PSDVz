@@ -148,8 +148,9 @@ Two consequences worth noticing:
   source the air is moving straight at the viewer. The rings keep travelling through a
   stationary dot field, which is correct and slightly startling.
 
-A lifted source draws as a hollow crosshair with a `↑ d λ` readout rather than a filled dot,
-because it isn't in this plane and a solid marker would say otherwise.
+A lifted source draws as a hollow crosshair rather than a filled dot, because it isn't in this
+plane and a solid marker would say otherwise. The height itself is read from the slider, not
+annotated on the field.
 
 For two and four sources the whole array is lifted together, parallel to the slice — the
 ceiling-array case. Per-source heights are not yet exposed.

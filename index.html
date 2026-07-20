@@ -443,9 +443,7 @@
         ctx.beginPath(); ctx.arc(sx, sy, rad, 0, 7); ctx.fill();
       }
       ctx.fillStyle = '#F2EADA';
-      const tag = (N > 1 ? p.tag : '') +
-                  (lifted ? (N > 1 ? ' ' : '') + '↑' + S.heightWL.toFixed(2) + 'λ' : '');
-      if (tag) ctx.fillText(tag, sx + rad * 2.6, sy);
+      if (N > 1) ctx.fillText(p.tag, sx + rad * (lifted ? 2.6 : 1.8), sy);
     }
   }
 
